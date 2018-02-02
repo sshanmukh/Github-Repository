@@ -12,7 +12,7 @@ r  = requests.get("https://finance.yahoo.com/news/zerostack-sees-growing-demand-
 
 data = r.text
 
-#Output stored in a text file on the local system
+#Output stored in a text file on the local system. The filepath can be made into a user input.
 f=open(r'C:\Users\Shravya.Shanmukh\Desktop\Work\Web Scraping\PR\Random\R106.txt', "w",encoding='utf-8')
 
 #Parser - HTML
